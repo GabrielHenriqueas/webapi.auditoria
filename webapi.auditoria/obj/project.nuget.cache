@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CzFRTY1B8OUEeLbBSfKFyaTnJwHUFoVcij9IOdcWisVZ9o5nA0r9lqHcBMJ6cjiX2sTZbYuPG0EKIoY5A6xbmw==",
+  "dgSpecHash": "3LLArlbYrtXrM9nIEH0PqtJFkfdLvE3noYWLDnw1e+O1/hgnVN67IDrOYTlOD6vsORWrbrDG7Eqr7BJ6161UEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\42351028856\\Desktop\\webapi.auditoria\\webapi.auditoria.csproj",
+  "projectFilePath": "C:\\Users\\42351028856\\Desktop\\webapi.auditoria\\webapi.auditoria\\webapi.auditoria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\42351028856\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\42351028856\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
