@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DneVE4pHvdla0pHUzsj5DTDCJVbS9yLK9KHQ5Is7OJo=",
+  "Source": "webapi.auditoria",
+  "BasePath": "_content/webapi.auditoria",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

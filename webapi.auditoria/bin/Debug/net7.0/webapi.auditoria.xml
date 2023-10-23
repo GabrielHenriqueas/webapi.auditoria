@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>webapi.auditoria</name>
+    </assembly>
+    <members>
+        <member name="M:webapi.auditoria.Controllers.EmpresaController.Post(webapi.auditoria.Domain.Empresa)">
+            <summary>
+            CADASTRAR EMPRESA
+            </summary>
+            <param name="empresa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Controllers.EmpresaController.Get">
+            <summary>
+            LISTAR EMPRESA
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Controllers.EmpresaController.Put(System.Guid,webapi.auditoria.Domain.Empresa)">
+            <summary>
+            ATUALIZAR EMPRESA
+            </summary>
+            <param name="id"></param>
+            <param name="empresa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Controllers.EmpresaController.Delete(System.Guid)">
+            <summary>
+            DELETAR EMPRESA
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Controllers.TipoUsuarioController.Post(webapi.auditoria.Domain.TipoUsuario)">
+            <summary>
+            CADASTRAR TIPO DE USUÁRIO
+            </summary>
+            <param name="tipoUsuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Controllers.TipoUsuarioController.Get">
+            <summary>
+            LISTAR TIPO DE USUÁRIO
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Controllers.TipoUsuarioController.Delete(System.Guid)">
+            <summary>
+            DELETAR TIPO DE USUÁRIO
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Controllers.UsuarioController.Post(webapi.auditoria.Domain.Usuario)">
+            <summary>
+            CADASTRAR USUÁRIO
+            </summary>
+            <param name="usuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Controllers.UsuarioController.Get">
+            <summary>
+            LISTAR USUÁRIOS
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Controllers.UsuarioController.Put(System.Guid,webapi.auditoria.Domain.Usuario)">
+            <summary>
+            ATUALIZAR USUÁRIO
+            </summary>
+            <param name="id"></param>
+            <param name="usuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Controllers.UsuarioController.Delete(System.Guid)">
+            <summary>
+            DELETAR USUÁRIO
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.auditoria.Utils.Criptografia.GeraHash(System.String)">
+            <summary>
+            Gera uma Hash a partir de uma senha
+            </summary>
+            <param name="senha">Senha que receberá a hash</param>
+            <returns>Senha Criptografada com a hash</returns>
+        </member>
+        <member name="M:webapi.auditoria.Utils.Criptografia.CompararHash(System.String,System.String)">
+            <summary>
+            Verifica se a hash da senha informada é igual á hash salva do bd
+            </summary>
+            <param name="senhaForm">Senha passada no form de Login</param>
+            <param name="senhaBanco">Senha cadastrada no banco</param>
+            <returns>True or False</returns>
+        </member>
+    </members>
+</doc>
